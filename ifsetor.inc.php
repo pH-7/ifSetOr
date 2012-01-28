@@ -14,12 +14,12 @@ namespace {
 	
   /**
    * @desc PHP 6 was to give birth to this function, but the development PHP team to decline this feature :(, so we create
-   * @param string $var a variable (e.g. $_GET['foo'])
-   * @param string $or a message if $var is empty (optional)
-   * @return string $var or $or
+   * @param string $sVar a variable (e.g. $_GET['foo'])
+   * @param string $sOr a message if $sVar is empty (optional)
+   * @return string $sVar or $sOr
    */
-         function ifsetor(&$var, $or = '') {
-            return (isset($var)) ? $var : $or;
+         function ifsetor(&$sVar, $sOr = '') {
+            return (isset($sVar)) ? $sVar : $sOr;
          }
 	
 }
